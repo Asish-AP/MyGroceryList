@@ -50,12 +50,14 @@ const Item = ({
           backgroundColor: "transparent",
           color: "white",
           fontSize: "20px",
+          fontFamily: "cursive",
         }}
         className={complete ? "complete" : ""}
       />
       <img
+        className="ImgSelect"
         style={{ cursor: "pointer" }}
-        src="https://img.icons8.com/emoji/36/000000/pencil-emoji.png"
+        src="https://cdn-icons-png.flaticon.com/128/1940/1940752.png"
         onClick={() => {
           const confirmBox = window.confirm("Do you want to edit this item?");
           if (confirmBox === true) {
@@ -65,13 +67,15 @@ const Item = ({
         alt="edit item"
       />
       <img
+        className="ImgSelect"
         style={{ cursor: "pointer" }}
         onClick={() => handleComplete(id)}
-        src="https://img.icons8.com/offices/40/000000/checked-2--v2.png"
+        src="https://cdn-icons-png.flaticon.com/128/10061/10061463.png"
         alt="mark item complete"
       />
 
       <img
+        className="ImgSelect"
         style={{ cursor: "pointer" }}
         onClick={() => {
           const confirmBox = window.confirm(
@@ -81,7 +85,7 @@ const Item = ({
             remove(id);
           }
         }}
-        src="https://img.icons8.com/color/48/000000/trash.png"
+        src="https://cdn-icons-png.flaticon.com/128/3221/3221897.png"
         alt="delete item"
       />
     </div>

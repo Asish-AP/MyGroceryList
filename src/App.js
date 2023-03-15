@@ -64,11 +64,11 @@ function App() {
           onChange={handleChange}
         />
         {edit ? (
-          <button className="btn" type="submit">
+          <button className="btn btn-grad" type="submit">
             Edit Item
           </button>
         ) : (
-          <button className="btn" type="submit">
+          <button className="btn btn-grad" type="submit">
             Add Item
           </button>
         )}
