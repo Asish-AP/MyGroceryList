@@ -10,6 +10,6 @@ It is a beginner friendly Grocery list App built using ReactJS.
 
 ## Screenshot
 
-👉 ![screenshot](https://user-images.githubusercontent.com/Screenshot 2023-03-15 213814.png.JPG)
+👉 ![image](https://raw.githubusercontent.com/Asish-AP/MyGroceryList/main/images/Screenshot%202023-03-15%20213814.png)
 
 Made with ❤ for my ❤
